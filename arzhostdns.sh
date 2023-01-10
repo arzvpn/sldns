@@ -14,7 +14,7 @@ SUB_DOMAIN=${sub}.scriptarzvpn.tech
 NS_DOMAIN=ns-${subsl}.scriptarzvpn.tech
 CF_ID=arzstore22@gmail.com
 CF_KEY=8772ff286d8515ccb36caf0f0f69b2fde1831
-echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/ipvps.conf
+echo "IP=""$SUB_DOMAIN" >> /var/lib/arzvpn-pro/ipvps.conf
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
